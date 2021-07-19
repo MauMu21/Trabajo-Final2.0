@@ -1,0 +1,248 @@
+/* ESTILOS GENERALES */
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#000;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+
+#particles-js {
+	height: 100vh; 
+	width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.contenedor {
+	width: 90%;
+	max-width: 1200px;
+    background-size: cover;
+    background-image: url('../auto.png');
+    background-position:center;
+	margin-left: auto; 
+	margin-right: auto;
+    margin-top: 15px;
+    padding: 20px 30px;
+    position: relative;
+    z-index: 99;
+    opacity: .85;
+}
+
+.contenedor.header {
+    height: calc(100vh - 55px);
+    border: 3px solid #555555;
+}
+
+.barra-navegacion ul {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.barra-navegacion li {
+    list-style: none;
+    display: inline-block;
+}
+
+.barra-navegacion .logo { 
+    color:#edfaed;
+    font-size: 50px;
+}
+
+.barra-navegacion a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 19px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+    transition: .5s ease;
+}
+
+.barra-navegacion a:hover {
+    color: #555555;
+    border-bottom: 1px solid currentcolor;
+}
+
+.contenido-descripcion {
+    width: 60%;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.contenido-descripcion .titulo {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.contenido-descripcion .titulo span:first-child {
+    font-size: 50px; 
+    display: block;
+    font-weight: 300;
+}
+
+.contenido-descripcion .titulo span:last-child {
+    font-weight: 900;
+    font-size: 100px;
+}
+
+.contenido-descripcion .btn-link {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 25px 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fdfbfb;
+    border: 1px solid #555555;
+    animation: parpadeo 2s linear infinite;
+    transition: .7s ease;
+}
+
+.contenido-descripcion .btn-link:hover {
+    border: 1px solid #555555;
+    animation: none;
+}
+
+
+@keyframes parpadeo  {
+    0%, 41%, 45%, 47%, 49.5%, 100%  { 
+        opacity: 1;
+    }
+
+    42%, 44%, 46%,48%,  50%  { 
+        opacity: 0; 
+    }
+}
+h2{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 1em;
+}
+#segundo p{
+background-color: beige;
+color: cyan;
+}
+#tercero p{
+    background-color: chartreuse;
+}
+.left{
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.623);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+    box-shadow: 8px 10px 21px 0px #dbcfcf;
+}
+.left h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.controls{
+    width: 100%;
+    background: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid rgb(61, 55, 139);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: white;
+}
+.left a{
+    color: white;
+    text-decoration: none;
+}
+.left a:hover {
+    color: white;
+    text-decoration: underline;
+}
+.left p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+.botons{
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+.movie-us{
+    background-color: #000000;
+}
+
+.container-movies{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top:60px;
+    justify-content: space-around;
+}
+
+.movies{
+    width: 30%;
+    background: rgb(0, 0, 0);
+    margin-bottom: 30px;
+    padding: 10px 10px 10px 10px;
+    transition: 0.5s;
+}
+.movies:hover{
+    box-shadow: 0 4px 10px rgb(255, 255, 255);
+}
+.social-media i{
+    font-size: 20px;
+    display: inline-block;
+    color: #08c3c3;
+    border: 1px solid #08c3c3;
+    border-radius: 50%;
+    width:40px;
+    height: 40px;
+    line-height: 37px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+    transition: all ease-in-out .3s;
+    margin-right: 5px;
+}
+
+.movies > img{
+    width: 100%;
+    height: 350px;
+    margin: auto;
+}
+
+
+.movies > h3{
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+
+.movies > p{
+    font-weight: 100;
+    color: #d5d6da;
+    margin-top: 15px;
+    padding-bottom: 20px;
+}
+
+.movies > a{
+    color: #b8b9bb;
+    font-weight: 400;
+    text-decoration: none;
+}

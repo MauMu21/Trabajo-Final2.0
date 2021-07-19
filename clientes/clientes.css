@@ -1,0 +1,16 @@
+*{
+    margin: auto;
+    padding: 0%;
+    font-family: 'Mate SC', serif;
+}
+li{
+    color: #eeead89c;
+    font-size: 1em;
+}
+body{
+    background-image: url(./clientes.png);
+    background-size: 100%;
+}
+h1{
+    color: #eeead89c;
+}

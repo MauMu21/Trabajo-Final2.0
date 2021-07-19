@@ -1,0 +1,24 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+body{
+    background-image: url(./servicios.png);
+    background-size: 100%;
+}
+li{
+    color: cornsilk;
+    box-shadow: 5px 5px 10px 9px #000;
+}
+h1{
+    color: cornsilk;
+}
+h2{
+    color: #fff;
+}
+h3{
+    color: cornsilk;
+}
+p{
+    color: cornsilk;
+}
